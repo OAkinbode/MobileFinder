@@ -23,20 +23,6 @@ const MainPage = () => {
       >
         <Text style={styles.buttonText}>Button 2</Text>
       </TouchableOpacity>
-
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => handleButtonClick(3)}
-      >
-        <Text style={styles.buttonText}>Button 3</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => handleButtonClick(4)}
-      >
-        <Text style={styles.buttonText}>Button 4</Text>
-      </TouchableOpacity>
     </View>
   );
 };
